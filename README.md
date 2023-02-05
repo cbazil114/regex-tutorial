@@ -27,7 +27,7 @@ Anchors are at the start and or of strings. Anchors do not match any character a
 
 ### Quantifiers
 
-Quantifiers are used to specify the number of results a user wants to match their search. For example, the quantifier * will return something that appears zero or more times. Or for something more specific, you can use something like ```+
+Quantifiers are used to specify the number of results a user wants to match their search. For example, the quantifier * will return something that appears zero or more times. Or for something more specific, you can use something like ``` + ```.
 
 ### Grouping Constructs
 
