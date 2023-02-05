@@ -22,12 +22,14 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Anchors
 
 Anchors are at the start and or of strings. Anchors do not match any character and instead matches a position in a line/characters. It is important to note how it functions in groups. For example:
-* For the start of a line, use ^ followed by the string you are searching. If you do ^a for a line "abc", the highlighted portion will be a. However, if you do this for ^b, it will not return anything. This is due to the fact that ^ anchor is used for the start of a string or line. 
-* For the end of a string, use the anchor $. In the previous example for "abc", you can find c by entering c$. However, b$ will not find the b in abc. 
+* For the start of a line, use ^ followed by the string you are searching. If you do ``` ^a ``` for a line ``` abc ``` , the highlighted portion will be a. However, if you do this for ``` ^b ```, it will not return anything. This is due to the fact that ``` ^ ``` anchor is used for the start of a string or line. 
+* For the end of a string, use the anchor ``` $ ```. In the previous example for "abc", you can find ``` c ``` by entering ``` c$ ```. However, ``` b$ ``` will not find the ``` b ``` in ``` abc ```. 
 
 ### Quantifiers
 
-Quantifiers are used to specify the number of results a user wants to match their search. For example, the quantifier * will return something that appears zero or more times. Or for something more specific, you can use something like ``` + ```.
+Quantifiers are used to specify the number of results a user wants to match their search. For example, the quantifier ``` * ``` will return something that appears zero or more times. Or for something more specific, you can use something like ``` ? ```, which returns zero or one instances of a search. Other examples include:
+* ``` + ``` -  One of more instances
+* ``` { n } ``` - n is the number of matches the user wants. 
 
 ### Grouping Constructs
 
