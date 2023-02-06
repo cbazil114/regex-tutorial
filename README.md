@@ -4,7 +4,8 @@ Regular expression (regex), or rational expression, is a series of characters th
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+For this tutorial, I will be using a regular expression used for matching an email address. 
+* Matching an Email: ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/```
 
 ## Table of Contents
 
