@@ -39,7 +39,8 @@ Grouping constructs are used to group substrings of an input. Usually utilizing 
 * ```([a-z0-9_\.-]+)```
 * ```([\da-z\.-]+)```
 * ```([a-z\.]{2,6})```</br>
-If you were searching username@gmail.com, the three groups would be "username", "gmail", and "com".
+
+If you were searching email@hotmail.com, the three groups would be "email", "hotmail", and "com".
 
 ### Bracket Expressions
 
@@ -48,6 +49,7 @@ In the summary expression, there are three different instanes of ```[]```
 * ```[a-z0-9_\.-]``` - Searches for all instances of a-z, 0-9, ```_```, ```.```, and ```-```. 
 * ```[\da-z\.-]``` - Searches for any digit between 0-9, any character a-z, and any instance of ```.``` and ```-```.
 * ```[a-z\.]``` - Searches for any character a-z, and any ```.``` in the string. </br>
+
 As you can see from the three bracket expressions, they are most of what you'd find in the grouping constructs. However, some elements are outside of the bracket expressions, such as the quantifiers. 
 
 ### Character Classes
